@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #292929;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .learning-container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #f3971b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+     
+        h2 {
+            text-align: center;
+            color: #292929;
+        }
+
+        .learning-section {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .learning-section img {
+            width: 200px; 
+            height: auto;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .learning-description {
+            flex-grow: 1;
+        }
+
+    
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #ffffff;
+            color: #292929;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #f3971b;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="learning-container">
+        <h2>My Learning Journey</h2>
+
+        <div class="learning-section">
+            <img src="dae.jpg" alt="D.A.E in Secretarial Management">
+            <div class="learning-description">
+                <h3>D.A.E in Secretarial Management</h3>
+                <p>I completed my Diploma of Associate Engineering (D.A.E) in Secretarial Management, where I gained valuable skills in administration and office management.</p>
+            </div>
+        </div>
+
+        <div class="learning-section">
+            <img src="programming.jpg" alt="Programming">
+            <div class="learning-description">
+                <h3>Programming Skills</h3>
+                <p>Currently, I am learning programming, focusing on TypeScript, HTML, and CSS. These skills help me build interactive and responsive web applications.</p>
+            </div>
+        </div>
+
+        <div class="learning-section">
+            <img src="nextjs.jpg" alt="Learning Next.js and Tailwind CSS">
+            <div class="learning-description">
+                <h3>Learning Next.js and Tailwind CSS</h3>
+                <p>Now, I am diving into Next.js and Tailwind CSS to enhance my front-end development skills and create visually appealing websites.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Home</a>
+</body>
+</html>
